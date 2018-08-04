@@ -1,0 +1,262 @@
+.log-form {
+    position: relative;
+}
+
+.log-form i {
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    font-size: 22px;
+}
+
+.log-form input {
+    padding-left: 30px !important;
+}
+
+.m-login__logo img {
+    width: 140px;
+    height: auto;
+}
+
+.m-login.m-login--1 .m-login__wrapper .m-login__logo {
+    margin: 0 auto 2rem auto;
+}
+
+.dashboard-stat.color-1 {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.2));
+    background-color: #64bc36;
+}
+
+.dashboard-stat {
+    display: inline-block;
+    padding: 0;
+    height: 160px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: .3s;
+    cursor: default;
+}
+
+.dashboard-stat-content {
+    position: absolute;
+    left: 32px;
+    top: 50%;
+    width: 61%;
+    transform: translateY(-50%);
+}
+
+.dashboard-stat-content h4 {
+    font-size: 42px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+.dashboard-stat-content span {
+    font-size: 18px;
+    margin-top: 4px;
+    line-height: 24px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.weatherwidget-io {
+    border-radius: 4px;
+}
+
+.flex-direction-nav a:before {
+    font-size: 35px;
+}
+
+@media (max-width: 1600px) {
+    .dashboard-stat .dashboard-stat-icon i {
+        font-size: 66px !important;
+    }
+}
+
+@media (max-width: 1366px) {
+    .dashboard-stat .dashboard-stat-icon i {
+        font-size: 50px !important;
+    }
+}
+
+.dashboard-stat-icon {
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-40%);
+    opacity: .7;
+}
+
+.dashboard-stat.color-4 {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1));
+    background-color: #f3103c;
+}
+
+.dashboard-stat.color-2 {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1));
+    background-color: #363841;
+}
+
+.dashboard-stat.color-3 {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.2));
+    background-color: rgba(255, 162, 0, 0.92);
+}
+
+.dashboard-stat:hover {
+    transform: translateY(-4px);
+    color: #fff;
+    cursor: pointer;
+}
+
+.parsley-errors-list {
+    position: absolute;
+    left: 0;
+    padding-left: 16px;
+}
+
+.parsley-errors-list li {
+    list-style: none;
+    color: red;
+}
+
+#rform .form-group {
+    margin-bottom: 1.5rem;
+}
+
+label[for="reg-confirm"] + input + ul .parsley-type {
+    display: none;
+}
+
+.city-select, span.select2-container {
+    width: 100% !important;
+}
+
+#m_modal_1 .m-widget2 .m-widget2__item:before {
+    left: -0.2rem;
+}
+
+#m_modal_1 .m-widget2 .m-widget2__item .m-widget2__desc .m-widget2__text {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+img.t-img {
+    width: 50px;
+    height: auto;
+}
+
+.flexslider {
+    margin: 0 0 20px;
+}
+
+li.slide1-dots {
+    position: relative;
+}
+
+li.slide1-dots::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+li.slide1-dots img.play-img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+li.slide1-dots:hover {
+    cursor: pointer;
+}
+
+.hall-more-details {
+    text-align: center;
+}
+
+.hall-more-details img.more-details-icon {
+    height: 100px;
+    width: auto;
+}
+
+.hall-more-details .col-md-4:first-child a {
+    text-decoration: none !important;
+}
+
+.hall-more-details p {
+    font-size: 17px;
+    color: #7fbe44;
+    margin-top: 15px;
+}
+
+.hall-more-details p .small {
+    color: #949494;
+}
+
+#m_gmap_3 {
+    width: 100% !important;
+    height: 300px !important;
+}
+.flexslider #slide1 video{
+    max-height: 480px;
+}
+.service-card {
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.service-card .m-widget19__shadow {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(0, 0, 0, 0)), color-stop(40%, rgba(0, 0, 0, .37)), color-stop(90%, rgba(0, 0, 0, .6))) no-repeat scroll 0 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, .37) 40%, rgba(0, 0, 0, .6) 90%) no-repeat scroll 0 0;
+}
+
+.service-card .m-widget19__shadow {
+    position: absolute;
+    top: 70%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.service-card-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.service-card-price {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.Appointments-card .col-6:nth-child(even) p{
+    text-align: right;
+}
+.Appointments-card .col-6 p{
+    font-size: 14px;
+}
+.Appointments-card .row:not(:last-child){
+    border-bottom: 1px dashed #ebedf2;
+    margin-bottom: 10px;
+}
